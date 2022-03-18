@@ -124,4 +124,4 @@ function browser(done) {
      watch(['src/img/*.*' ,  'src/img/**/*.*'] , package).on('change' , reload);
     done();
 }
-exports.default = browser
+exports.default = series(parallel(includeHTML ,sassstyle, minijs ,package),browser)    
