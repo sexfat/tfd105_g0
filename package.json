@@ -5,8 +5,8 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "安裝套件" : "npm install",
-    "開發" : "gulp"
+    "安裝套件": "npm install",
+    "開發": "gulp"
   },
   "repository": {
     "type": "git",
@@ -30,5 +30,8 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }

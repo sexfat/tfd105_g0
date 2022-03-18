@@ -1,0 +1,16 @@
+.space10 {
+    margin-top: 10px;
+}
+
+.space20 {
+    margin-top: 20px;
+}
+
+
+@for $i from 1 through 10 {
+
+    .space#{$i}0 {
+        margin-top: $i *10 + px;
+
+    }
+}
